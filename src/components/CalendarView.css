@@ -1,0 +1,117 @@
+.calendar-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-day {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+}
+
+.calendar-cell {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-height: 100px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cell-date {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #000;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.appt-info {
+  background-color: #e9f7ef;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark-mode .calendar-container {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.dark-mode .calendar-day,
+.dark-mode .calendar-cell {
+  background: #2c2c2c;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .calendar-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .calendar-header h2 {
+    font-size: 20px;
+  }
+
+  .calendar-day,
+  .calendar-cell {
+    font-size: 13px;
+  }
+
+  .appt-info {
+    font-size: 11px;
+  }
+}
+.app-footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+.app-footer a {
+  color: teal;
+  text-decoration: none;
+}
+.app-footer a:hover {
+  text-decoration: underline;
+}
