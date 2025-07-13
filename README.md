@@ -118,7 +118,7 @@ npm run dev</code></pre>
   <hr>
 
   <h2>✅ Live Demo (Optional)</h2>
-  <p>You can deploy it using <a href="https://vercel.com" target="_blank">Vercel</a> or <a href="https://netlify.com" target="_blank">Netlify</a> in 1-click.</p>
+  <p>You can deploy it using <a href="https://appointment-calendar-pied.vercel.app/" target="_blank">Vercel</a>  in 1-click.</p>
 
 </body>
 </html>
