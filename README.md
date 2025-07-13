@@ -93,7 +93,7 @@
     <li><strong>React (Vite)</strong></li>
     <li><strong>React Router</strong> (for navigation)</li>
     <li><strong>CSS</strong> for styling (fully responsive)</li>
-    <li>Optional: Add Tailwind / Material UI if desired</li>
+    <li> Tailwind / Material UI if desired</li>
   </ul>
 
   <hr>
